@@ -1,0 +1,61 @@
+.freelancer {
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+  text-align: center;
+  background: linear-gradient(rgba(0,0,0, 0.9), rgba(0,0,0, 0.7)), url(../../Assets/compass.jpg);
+  color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 77% 80%, 0 100%);
+}
+
+.freelancer h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.freelancer p {
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 2rem;
+  color: lightcyan;
+}
+
+.btn-primary {
+  background: hotpink;
+  color: black;
+  border-color: black;
+}
+
+.btn-primary:hover {
+  background: black;
+  color: white;
+  border-color: white;
+}
+
+/* ipad */
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+/* iphone */
+@media (max-width: 576px) {
+  .freelancer {
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 92%, 0 100%);
+  }
+  
+  .freelancer p {
+    padding: 0.5rem 2rem;
+  }
+}

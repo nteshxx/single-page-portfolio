@@ -1,0 +1,29 @@
+#header {
+  background-color:black;
+  height: 780px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 88%, 0 100%);
+}
+
+/* ipad */
+@media (max-width: 1024px) {
+  #header {
+    height: 820px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 91%, 0 100%);
+  }
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+  
+}
+
+/* iphone */
+@media (max-width: 576px) {
+  #header {
+    height: 1120px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 96%, 0 100%);
+  }
+}

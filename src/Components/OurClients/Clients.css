@@ -1,0 +1,91 @@
+.review-container {
+  align-items: center;
+  padding: 3rem 18rem;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+}
+  
+.review-container h1 {
+  color: black;
+  text-align: center;
+  margin-top: 2rem;
+  line-height: 0.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+  
+.review-container h1 span {
+  color: red;
+}
+  
+.review-subheading {
+  font-family: 'Lato', sans-serif;
+  color: darkgray;
+  text-align: center;
+  margin-top: 1.2rem;
+  margin-bottom: 6rem;
+}
+
+.slide img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  object-fit: cover;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 0 6rem 2rem 6rem;
+}
+
+.slide p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  color: gray;
+}
+
+#client-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: black;
+}
+
+/* ipad */
+@media (max-width: 1024px) {
+  .review-container {
+    align-items: center;
+    padding: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+/* iphone */
+@media (max-width: 576px) {
+  .review-container {
+    padding: 1rem 2rem;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+  }
+
+  .review-subheading {
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .slide {
+    padding: 2rem;
+  }
+}

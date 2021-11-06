@@ -1,0 +1,128 @@
+#hero-container {
+  width: 100%;
+}
+
+.hero {
+  max-width: 1152px;
+  padding-top: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hero img {
+  width: 400px;
+  height: auto;
+}
+
+.left {
+  display: flex;
+  flex: 1;
+  padding-left: 3.5rem;
+}
+
+.right {
+  color: white;
+  flex: 1;
+  padding-left: 3.5rem;
+}
+
+.right h6 {
+  color: aqua;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.right h1 {
+  color: white;
+  font-size: 4rem;
+  font-weight: 200;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+.right h1 span {
+  color: aqua;
+}
+
+.right p {
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  margin-right: 3rem;
+}
+
+.btn {
+  padding: 0.8rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: 2px solid red;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: transparent;
+  color: red;
+  transition: all 400ms ease;
+}
+
+.btn:hover {
+  color: white;
+  background: hotpink;
+  border-color: transparent;
+}
+
+/* ipad */
+@media (max-width: 1024px) {
+  .hero {
+    max-width: 940px;
+    padding-top: 0px;
+  }
+  
+  .hero img {
+    width: 290px;
+  }
+  
+  .left {
+    flex: 1;
+    display: flex;
+    padding-left: 3.5rem;
+  }
+  
+  .right {
+    color: white;
+    flex: 1;
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+  
+}
+
+/* iphone */
+@media (max-width: 576px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero img {
+    width: 300px;
+  }
+
+  .left {
+    padding-top: 1rem;
+    padding-left: 0rem;
+  }
+
+  .right {
+    padding: 3rem;
+  }
+}

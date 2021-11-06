@@ -1,0 +1,134 @@
+.services-container {
+  align-items: center;
+  background-color: lightcyan;
+  padding: 2rem 10rem 10rem 10rem;
+}
+
+.services-heading {
+  color: black;
+  text-align: center;
+  margin-top: 5rem;
+  line-height: 0.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.services-heading span {
+    color: red;
+}
+
+.services-heading + p {
+  font-family: 'Lato', sans-serif;
+  color: darkgray;
+  text-align: center;
+  margin-top: 1.2rem;
+  margin-bottom: 6rem;
+}
+
+.services-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 4rem;
+  grid-row-gap: 6rem;
+  text-align: center;
+}
+
+.service-card {
+  background-color: white;
+  padding: 3rem 3rem 2rem 3rem;
+  position: relative;
+  transition: all 400ms ease;
+}
+
+.service-card:hover {
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.service-card img {
+  background-color: cyan;
+  position: absolute;
+  padding: 0.7rem;
+  top: -3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.service-card h2 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.service-card:hover h2 {
+  color: white;
+}
+
+.service-card p {
+  color: grey;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  line-height: 1.3rem;
+}
+
+.service-card:hover p {
+  color: white;
+}
+
+/* ipad pro */
+@media (max-width: 1024px) {
+  .services-container {
+    padding: 2rem 6rem 10rem 6rem;
+  }
+
+  .services-heading + p {
+    margin-bottom: 10rem;
+  }
+
+  .services-card-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 4rem;
+    grid-row-gap: 5rem;
+  }
+}
+
+/* */
+@media (max-width: 992px) {
+  
+}
+
+/* ipad */
+@media (max-width: 768px) {
+  .services-container {
+    padding: 2rem 4rem 10rem 4rem;
+  }
+
+  .services-heading + p {
+    margin-bottom: 8rem;
+  }
+
+  .services-card-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 4rem;
+    grid-row-gap: 5rem;
+  }
+}
+
+/* iphone */
+@media (max-width: 576px) {
+  .services-container {
+    padding: 2rem 3rem 6rem 3rem;
+  }
+
+  .services-heading + p {
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+  }
+
+  .services-card-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

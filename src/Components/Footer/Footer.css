@@ -1,0 +1,43 @@
+footer {
+  background: hotpink;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#copyright {
+  color: white;
+}
+
+#footer-logo {
+  margin-bottom: 2rem;
+}
+
+#footer-socials {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+#footer-socials a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0.4rem;
+  height: 48px;
+  width: 48px;
+}
+
+#footer-socials a img {
+  height: 100%;
+  width: 100%;
+  padding: 0.4rem;
+  transition: all 0ms ease;
+}
+
+#footer-socials a img:hover {
+  border-radius: 50%;
+  background-color:white;
+  height: 54px;
+  width: 54px;
+}
