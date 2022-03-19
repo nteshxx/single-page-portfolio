@@ -31,7 +31,7 @@
 #navigation a:hover {
   border-radius: 5px;
   color: black;
-  background-color: hotpink;
+  background: linear-gradient(to right bottom, #ffffffa7, #ffffffa3);
 }
 
 #nav {
