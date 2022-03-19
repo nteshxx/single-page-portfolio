@@ -30,8 +30,8 @@
 
 #navigation a:hover {
   border-radius: 5px;
-  color: black;
-  background-color: linear-gradient(to right bottom, #ffffffa7, #ffffffa3);
+  color: yellow;
+  background-color: linear-gradient(to right bottom, #ffffffa7, #ffffffa9);
 }
 
 #nav {
