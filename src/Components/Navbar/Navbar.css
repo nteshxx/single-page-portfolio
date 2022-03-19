@@ -18,7 +18,7 @@
   color: white;
   text-align: center;
   border-radius: 5px;
-  background-color:black;
+  background-color: black;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 500;
@@ -31,7 +31,7 @@
 #navigation a:hover {
   border-radius: 5px;
   color: black;
-  background: linear-gradient(to right bottom, #ffffffa7, #ffffffa3);
+  background-color: linear-gradient(to right bottom, #ffffffa7, #ffffffa3);
 }
 
 #nav {
