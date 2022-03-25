@@ -21,7 +21,7 @@ const Navbar = () => {
       <div id="navbar">
         <nav id="nav">
           <div id="logo">
-            <h1>LOGO</h1>
+            <h1>999 WRLD</h1>
           </div>
           <div id="navigation">
             <a href="/">Home</a>
