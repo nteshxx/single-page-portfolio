@@ -5,8 +5,9 @@
 }
 
 #logo {
+  color: hotpink;
+  font-weight: 700;
   font-size: 1.5rem;
-  color: rgb(255, 249, 249);
   align-items: center;
 }
 
